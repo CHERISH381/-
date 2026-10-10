@@ -22,6 +22,7 @@ import {
 import { QRCodeSVG } from 'qrcode.react';
 import { STANDALONE_HTML_CODE, GAS_BACKEND_CODE } from './data/standaloneCode';
 import { OccupancyPieCharts } from './components/OccupancyPieCharts';
+import { Analytics } from '@vercel/analytics/react';
 
 export interface Seat {
   seat_id: string;
@@ -2913,6 +2914,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }

@@ -1,0 +1,6 @@
+{
+  "name": "도서관 좌석 및 열람실 예약 시스템",
+  "description": "구글 시트(Google Apps Script) 백엔드 연동 기반 실시간 도서관 열람실 좌석 조회, 예약 신청 및 내 예약 관리 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
